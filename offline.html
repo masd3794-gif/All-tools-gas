@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline — All Tools</title>
+<style>
+  :root{--bg:#F4F5F7;--text:#14161C;--muted:#6B7280;--accent:#2563EB}
+  body{margin:0; font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text);
+    min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:24px}
+  .box{max-width:360px}
+  .icon{font-size:44px; margin-bottom:14px}
+  h1{font-size:20px; margin:0 0 8px; font-family:'Space Grotesk',sans-serif}
+  p{color:var(--muted); font-size:14px; margin:0 0 20px; line-height:1.5}
+  button{background:var(--accent); color:#fff; border:none; padding:11px 22px; border-radius:10px; font-weight:600; font-size:14px; cursor:pointer}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="icon">📡</div>
+    <h1>Anda sedang offline</h1>
+    <p>Tidak ada koneksi internet. Beberapa tool yang tidak butuh data (kalkulator, text tools, password generator) tetap bisa digunakan setelah halaman dimuat sebelumnya.</p>
+    <button onclick="location.href='./index.html'">Coba Lagi</button>
+  </div>
+</body>
+</html>
